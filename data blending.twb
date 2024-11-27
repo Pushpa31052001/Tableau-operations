@@ -1,0 +1,1044 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (Multiple Connections)' inline='true' name='federated.1mpyej41sh998113cvdzo19uhuad' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Book1' name='excel-direct.1pwl4ul0pauvz81g9827c07idss3'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/PratapGowda/Desktop/Book1.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1pwl4ul0pauvz81g9827c07idss3' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:J27:no:A1:J27:0' header='yes' outcome='6'>
+            <column datatype='string' name='Crop' ordinal='0' />
+            <column datatype='integer' name='Crop_Year' ordinal='1' />
+            <column datatype='string' name='Season' ordinal='2' />
+            <column datatype='string' name='State' ordinal='3' />
+            <column datatype='integer' name='Area' ordinal='4' />
+            <column datatype='integer' name='Production' ordinal='5' />
+            <column datatype='real' name='Annual_Rainfall' ordinal='6' />
+            <column datatype='real' name='Fertilizer' ordinal='7' />
+            <column datatype='real' name='Pesticide' ordinal='8' />
+            <column datatype='real' name='Crop Yield' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J27:no:A1:J27:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crop</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Crop]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Crop</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crop_Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Crop_Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Crop_Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Season]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Season</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Area]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Area</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Production</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Production]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Production</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual_Rainfall</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Annual_Rainfall]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Annual_Rainfall</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fertilizer</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fertilizer]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Fertilizer</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pesticide</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pesticide]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Pesticide</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crop Yield</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crop Yield]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Crop Yield</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Annual Rainfall' datatype='real' name='[Annual_Rainfall]' role='measure' type='quantitative' />
+      <column caption='Crop Year' datatype='integer' name='[Crop_Year]' role='dimension' type='quantitative' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/PRATAP~1/AppData/Local/Temp/TableauTemp/#TableauTemp_1etuxvq1f8oq7w11usntn0p66nmm.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/23/2024 01:31:51 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Crop</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Crop]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Crop</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Crop_Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Crop_Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Crop_Year</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Season</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Season]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Season</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Area</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Area]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Area</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Production</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Production]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Production</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual_Rainfall</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Annual_Rainfall]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual_Rainfall</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fertilizer</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Fertilizer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fertilizer</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pesticide</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Pesticide]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pesticide</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Crop Yield</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Crop Yield]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Crop Yield</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_1168C0FDEB54487A8175486BBEC5A7DB]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_1168C0FDEB54487A8175486BBEC5A7DB'>
+            <properties context=''>
+              <relation connection='excel-direct.1pwl4ul0pauvz81g9827c07idss3' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:J27:no:A1:J27:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Crop' ordinal='0' />
+                  <column datatype='integer' name='Crop_Year' ordinal='1' />
+                  <column datatype='string' name='Season' ordinal='2' />
+                  <column datatype='string' name='State' ordinal='3' />
+                  <column datatype='integer' name='Area' ordinal='4' />
+                  <column datatype='integer' name='Production' ordinal='5' />
+                  <column datatype='real' name='Annual_Rainfall' ordinal='6' />
+                  <column datatype='real' name='Fertilizer' ordinal='7' />
+                  <column datatype='real' name='Pesticide' ordinal='8' />
+                  <column datatype='real' name='Crop Yield' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (Book2)' inline='true' name='federated.1ixwrhx1rtm05t13pnj3t1h2jaxk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Book2' name='excel-direct.0tnuopq0lbkxmk1aqqxl21ubx1ru'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/PratapGowda/Desktop/Book2.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0tnuopq0lbkxmk1aqqxl21ubx1ru' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:J34:no:A1:J34:0' header='no' outcome='6'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='integer' name='F2' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='integer' name='F5' ordinal='4' />
+            <column datatype='integer' name='F6' ordinal='5' />
+            <column datatype='real' name='F7' ordinal='6' />
+            <column datatype='real' name='F8' ordinal='7' />
+            <column datatype='real' name='F9' ordinal='8' />
+            <column datatype='real' name='F10' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J34:no:A1:J34:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>false</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/PRATAP~1/AppData/Local/Temp/TableauTemp/#TableauTemp_1qrl9ls0qcfiqq0zljafw0uoduy2.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/23/2024 01:32:17 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F2</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F3</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F3</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F4</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F4</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F5</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F5]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F5</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F6</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F6]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F6</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F7</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F7]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F7</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F8</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F8]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F8</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F9</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F9]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F9</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F10</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F10]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F10</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_9D933D3B4F9846149C5D5F9BE3EBA2A0'>
+            <properties context=''>
+              <relation connection='excel-direct.0tnuopq0lbkxmk1aqqxl21ubx1ru' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:J34:no:A1:J34:0' header='no' outcome='6'>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='integer' name='F2' ordinal='1' />
+                  <column datatype='string' name='F3' ordinal='2' />
+                  <column datatype='string' name='F4' ordinal='3' />
+                  <column datatype='integer' name='F5' ordinal='4' />
+                  <column datatype='integer' name='F6' ordinal='5' />
+                  <column datatype='real' name='F7' ordinal='6' />
+                  <column datatype='real' name='F8' ordinal='7' />
+                  <column datatype='real' name='F9' ordinal='8' />
+                  <column datatype='real' name='F10' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <datasource-relationships>
+    <datasource-dependencies datasource='federated.1ixwrhx1rtm05t13pnj3t1h2jaxk'>
+      <column datatype='string' name='[F4]' role='dimension' type='nominal' />
+      <column-instance column='[F4]' derivation='None' name='[none:F4:nk]' pivot='key' type='nominal' />
+    </datasource-dependencies>
+    <datasource-dependencies datasource='federated.1mpyej41sh998113cvdzo19uhuad'>
+      <column caption='Crop Year' datatype='integer' name='[Crop_Year]' role='dimension' type='quantitative' />
+      <column-instance column='[Crop_Year]' derivation='None' name='[none:Crop_Year:ok]' pivot='key' type='ordinal' />
+    </datasource-dependencies>
+    <datasource-relationship source='federated.1mpyej41sh998113cvdzo19uhuad' target='federated.1ixwrhx1rtm05t13pnj3t1h2jaxk'>
+      <column-mapping>
+        <map key='[federated.1mpyej41sh998113cvdzo19uhuad].[none:Crop_Year:ok]' value='[federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[none:F4:nk]' />
+      </column-mapping>
+    </datasource-relationship>
+  </datasource-relationships>
+  <worksheets>
+    <worksheet name='data blending'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Book2)' name='federated.1ixwrhx1rtm05t13pnj3t1h2jaxk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ixwrhx1rtm05t13pnj3t1h2jaxk'>
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[F5]' role='measure' type='quantitative' />
+            <column datatype='real' name='[F7]' role='measure' type='quantitative' />
+            <column datatype='real' name='[F9]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F5]' derivation='Sum' name='[sum:F5:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F7]' derivation='Sum' name='[sum:F7:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F9]' derivation='Sum' name='[sum:F9:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[sum:F9:qk]' />
+              <lod column='[federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[sum:F9:qk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[sum:F5:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[sum:F9:qk]' />
+              <lod column='[federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[sum:F9:qk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[sum:F7:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[sum:F9:qk]' />
+              <lod column='[federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[sum:F9:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[sum:F5:qk] + [federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[sum:F7:qk])</rows>
+        <cols>[federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{B3792F02-D187-4BB4-8A27-EA26E7ADEF6B}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' maximized='true' name='data blending'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[sum:F9:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[none:F1:nk]</field>
+            <field>[federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[none:F3:nk]</field>
+            <field>[federated.1ixwrhx1rtm05t13pnj3t1h2jaxk].[none:F4:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9638FA5A-7EC4-48D1-8A04-55C082887336}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='data blending' width='192'>
+      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
+      RdA7/j/EFJOuDECU4QAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
